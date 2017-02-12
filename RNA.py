@@ -17,8 +17,8 @@ class RNA(object):
         self.n_entradas = entradas
         self.alpha = alpha
 
-        self.aleatoria = aleatoria  # check
-        self.permitir_logs = permitir_logs  # check
+        self.aleatoria = aleatoria
+        self.permitir_logs = permitir_logs
 
     def f_aleatoria(self):
 
