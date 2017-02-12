@@ -21,7 +21,6 @@ class RNA(object):
         self.permitir_logs = permitir_logs
 
     def f_aleatoria(self):
-
         try:
             if self.aleatoria is None:
                 return random.uniform(-1, 1)
@@ -117,7 +116,6 @@ class RNA(object):
                 print('\tGRMSE de la red: {}'.format(informe['grmse']))
 
     def single_epoch(self, ejemplos_entrada, ejemplos_salida):
-
         informe_epoch = {'deseado': [], 'obtenido': [], 'rmse': [], 'grmse': None}
 
         error_buffer = [0 for i in range(len(ejemplos_salida[0]))]  # one buffer per net output
