@@ -12,3 +12,6 @@ The goal is to keep the code as simple as possible to clearly see network algori
 * Make a loader to feed the network from .csv/.xml/... files
 * Stop training by timeout or error stabilization
 * Make a Jupyter notebook with the training of a network with real world public datasets
+
+## How to run the demo:
+`python RNA.py`
