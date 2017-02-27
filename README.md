@@ -9,6 +9,7 @@ I have written this module to study the algorithms of a multilayer perceptron.
 The goal is to keep the code as simple as possible to clearly see network algorithms without focusing too much on performance.
 
 ## To do:
+* Normalize the input of the network
 * Make a loader to feed the network from .csv/.xml/... files
 * Stop training by timeout or error stabilization
 * Make a Jupyter notebook with the training of a network with real world public datasets
